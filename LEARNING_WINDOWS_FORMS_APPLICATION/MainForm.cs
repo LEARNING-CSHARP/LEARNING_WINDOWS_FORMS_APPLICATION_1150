@@ -14,164 +14,163 @@
 		private void insertButton_Click(object sender, System.EventArgs e)
 		{
 			// **********
-			//dataListBox.Items.Add(dataTextBox.Text);
+			//identitiesListBox.Items.Add(identityTextBox.Text);
 			// **********
 
 			// **********
-			//dataTextBox.Text = dataTextBox.Text.Trim();
+			//identityTextBox.Text = identityTextBox.Text.Trim();
 
-			//if (dataTextBox.Text != "")
+			//if (identityTextBox.Text != "")
 			//{
-			//	dataListBox.Items.Add(dataTextBox.Text);
+			//	identitiesListBox.Items.Add(identityTextBox.Text);
 			//}
 			// **********
 
 			// **********
-			//dataTextBox.Text = dataTextBox.Text.Trim();
+			//identityTextBox.Text = identityTextBox.Text.Trim();
 
-			//if (dataTextBox.Text != string.Empty)
+			//if (identityTextBox.Text != string.Empty)
 			//{
-			//	dataListBox.Items.Add(dataTextBox.Text);
+			//	identitiesListBox.Items.Add(identityTextBox.Text);
 			//}
 			// **********
 
 			// **********
+			// "" -> string.Empty
 			// "\n\r" -> System.Environment.NewLine
 			// **********
 
 			// **********
-			//dataTextBox.Text = dataTextBox.Text.Trim();
+			//identityTextBox.Text = identityTextBox.Text.Trim();
 
-			//if (dataTextBox.Text != string.Empty)
-			//{
-			//	if (!dataListBox.Items.Contains(dataTextBox.Text))
-			//		dataListBox.Items.Add(dataTextBox.Text);
-			//}
+			//if (identityTextBox.Text != string.Empty)
+			//	if (!identitiesListBox.Items.Contains(identityTextBox.Text))
+			//		identitiesListBox.Items.Add(identityTextBox.Text);
 			// **********
 
 			// **********
-			//dataTextBox.Text = dataTextBox.Text.Trim();
+			//identityTextBox.Text = identityTextBox.Text.Trim();
 
-			//if (dataTextBox.Text != string.Empty)
+			//if (identityTextBox.Text != string.Empty)
 			//{
-			//	if (dataListBox.Items.Contains(dataTextBox.Text) == false)
+			//	if (identitiesListBox.Items.Contains(identityTextBox.Text) == false)
 			//	{
-			//		dataListBox.Items.Add(dataTextBox.Text);
+			//		identitiesListBox.Items.Add(identityTextBox.Text);
 			//	}
 			//}
 			// **********
 
 			// **********
-			//dataTextBox.Text = dataTextBox.Text.Trim();
+			//identityTextBox.Text = identityTextBox.Text.Trim();
 
-			//dataTextBox.Text = dataTextBox.Text.Replace("  ", " ");
-			//dataTextBox.Text = dataTextBox.Text.Replace("   ", " ");
-			//dataTextBox.Text = dataTextBox.Text.Replace("    ", " ");
-			//dataTextBox.Text = dataTextBox.Text.Replace("     ", " ");
+			//identityTextBox.Text = identityTextBox.Text.Replace("  ", " ");
+			//identityTextBox.Text = identityTextBox.Text.Replace("   ", " ");
+			//identityTextBox.Text = identityTextBox.Text.Replace("    ", " ");
+			//identityTextBox.Text = identityTextBox.Text.Replace("     ", " ");
 
-			//if (dataTextBox.Text != string.Empty)
+			//if (identityTextBox.Text != string.Empty)
 			//{
-			//	if (dataListBox.Items.Contains(dataTextBox.Text) == false)
+			//	if (identitiesListBox.Items.Contains(identityTextBox.Text) == false)
 			//	{
-			//		dataListBox.Items.Add(dataTextBox.Text);
+			//		identitiesListBox.Items.Add(identityTextBox.Text);
 			//	}
 			//}
 			// **********
 
 			// **********
-			//dataTextBox.Text =
-			//	dataTextBox.Text.Trim();
+			//identityTextBox.Text =
+			//	identityTextBox.Text.Trim();
 
-			//while (dataTextBox.Text.Contains("  "))
+			//while (identityTextBox.Text.Contains("  "))
 			//{
-			//	dataTextBox.Text =
-			//		dataTextBox.Text.Replace("  ", " ");
+			//	identityTextBox.Text =
+			//		identityTextBox.Text.Replace("  ", " ");
 			//}
 
-			//if (dataTextBox.Text != string.Empty)
+			//if (identityTextBox.Text != string.Empty)
 			//{
-			//	if (dataListBox.Items.Contains(dataTextBox.Text) == false)
+			//	if (identitiesListBox.Items.Contains(identityTextBox.Text) == false)
 			//	{
-			//		dataListBox.Items.Add(dataTextBox.Text);
+			//		identitiesListBox.Items.Add(identityTextBox.Text);
 			//	}
 			//}
 			// **********
 
 			// **********
-			//dataTextBox.Text =
-			//	dataTextBox.Text.Trim();
+			//identityTextBox.Text =
+			//	identityTextBox.Text.Trim();
 
-			//while (dataTextBox.Text.Contains("  "))
+			//while (identityTextBox.Text.Contains("  "))
 			//{
-			//	dataTextBox.Text =
-			//		dataTextBox.Text.Replace("  ", " ");
+			//	identityTextBox.Text =
+			//		identityTextBox.Text.Replace("  ", " ");
 			//}
 
-			//if (dataTextBox.Text != string.Empty)
+			//if (identityTextBox.Text != string.Empty)
 			//{
-			//	if (dataListBox.Items.Contains(dataTextBox.Text) == false)
+			//	if (identitiesListBox.Items.Contains(identityTextBox.Text) == false)
 			//	{
-			//		dataListBox.Items.Add(dataTextBox.Text);
+			//		identitiesListBox.Items.Add(identityTextBox.Text);
 			//	}
 
-			//	dataTextBox.Text = string.Empty;
+			//	identityTextBox.Text = string.Empty;
 			//}
 			// **********
 
 			// **********
-			//dataTextBox.Text =
-			//	dataTextBox.Text.Trim();
+			//identityTextBox.Text =
+			//	identityTextBox.Text.Trim();
 
-			//while (dataTextBox.Text.Contains("  "))
+			//while (identityTextBox.Text.Contains("  "))
 			//{
-			//	dataTextBox.Text =
-			//		dataTextBox.Text.Replace("  ", " ");
+			//	identityTextBox.Text =
+			//		identityTextBox.Text.Replace("  ", " ");
 			//}
 
-			//if (dataTextBox.Text != string.Empty)
+			//if (identityTextBox.Text != string.Empty)
 			//{
-			//	if (dataListBox.Items.Contains(dataTextBox.Text) == false)
+			//	if (identitiesListBox.Items.Contains(identityTextBox.Text) == false)
 			//	{
-			//		dataListBox.Items.Add(dataTextBox.Text);
+			//		identitiesListBox.Items.Add(identityTextBox.Text);
 			//	}
 
-			//	dataTextBox.SelectAll();
+			//	identityTextBox.SelectAll();
 			//}
 			// **********
 
 			// **********
 			// **********
 			// **********
-			//dataTextBox.Text =
-			//	dataTextBox.Text.Trim();
+			//identityTextBox.Text =
+			//	identityTextBox.Text.Trim();
 
-			//while (dataTextBox.Text.Contains("  "))
+			//while (identityTextBox.Text.Contains("  "))
 			//{
-			//	dataTextBox.Text =
-			//		dataTextBox.Text.Replace("  ", " ");
+			//	identityTextBox.Text =
+			//		identityTextBox.Text.Replace("  ", " ");
 			//}
 
-			//if (dataTextBox.Text != string.Empty)
+			//if (identityTextBox.Text != string.Empty)
 			//{
-			//	if (dataListBox.Items.Contains(dataTextBox.Text) == false)
+			//	if (identitiesListBox.Items.Contains(identityTextBox.Text) == false)
 			//	{
-			//		dataListBox.Items.Add(dataTextBox.Text);
+			//		identitiesListBox.Items.Add(identityTextBox.Text);
 			//	}
 
-			//	dataTextBox.Focus();
+			//	identityTextBox.Focus();
 
 			//	// **********
-			//	//dataTextBox.SelectAll();
+			//	//identityTextBox.SelectAll();
 			//	// **********
 
 			//	// **********
-			//	//dataTextBox.Select
-			//	//	(start: 0, length: dataTextBox.Text.Length);
+			//	//identityTextBox.Select
+			//	//	(start: 0, length: identityTextBox.Text.Length);
 			//	// **********
 
 			//	// **********
-			//	dataTextBox.SelectionStart = 0;
-			//	dataTextBox.SelectionLength = dataTextBox.Text.Length;
+			//	identityTextBox.SelectionStart = 0;
+			//	identityTextBox.SelectionLength = identityTextBox.Text.Length;
 			//	// **********
 			//}
 			// **********
@@ -179,41 +178,46 @@
 			// **********
 
 			// **********
-			dataTextBox.Text =
-				dataTextBox.Text.Trim();
-
-			while (dataTextBox.Text.Contains("  "))
+			if (identityTextBox.Text == null)
 			{
-				dataTextBox.Text =
-					dataTextBox.Text.Replace("  ", " ");
+				return;
 			}
 
-			if (dataTextBox.Text != string.Empty)
+			identityTextBox.Text =
+				identityTextBox.Text.Trim();
+
+			while (identityTextBox.Text.Contains("  "))
 			{
-				if (dataTextBox.Text.Length == 1)
+				identityTextBox.Text =
+					identityTextBox.Text.Replace("  ", " ");
+			}
+
+			if (identityTextBox.Text != string.Empty)
+			{
+				if (identityTextBox.Text.Length == 1)
 				{
-					dataTextBox.Text =
-						dataTextBox.Text.ToUpper();
+					identityTextBox.Text =
+						identityTextBox.Text.ToUpper();
 				}
 				else
 				{
-					dataTextBox.Text =
-						dataTextBox.Text.Substring(startIndex: 0, length: 1).ToUpper() +
-						dataTextBox.Text.Substring(startIndex: 1).ToLower();
+					identityTextBox.Text =
+						identityTextBox.Text.Substring(startIndex: 0, length: 1).ToUpper() +
+						identityTextBox.Text.Substring(startIndex: 1).ToLower();
 				}
 
-				if (dataListBox.Items.Contains(dataTextBox.Text) == false)
+				if (identitiesListBox.Items.Contains(identityTextBox.Text) == false)
 				{
-					dataListBox.Items.Add(dataTextBox.Text);
+					identitiesListBox.Items.Add(identityTextBox.Text);
 				}
 
-				dataTextBox.Focus();
-				dataTextBox.SelectAll();
+				identityTextBox.Focus();
+				identityTextBox.SelectAll();
 			}
 			// **********
 		}
 
-		private void dataListBox_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
+		private void identitiesListBox_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
 		{
 			// **********
 			//if (e.KeyCode == System.Windows.Forms.Keys.Delete)
@@ -240,7 +244,7 @@
 			//			(e.Shift == false) &&
 			//			(e.Control == false))
 			//		{
-			//			dataListBox.Items.RemoveAt(dataListBox.SelectedIndex);
+			//			identitiesListBox.Items.RemoveAt(identitiesListBox.SelectedIndex);
 			//		}
 
 			//		break;
@@ -257,9 +261,9 @@
 			//			(e.Shift == false) &&
 			//			(e.Control == false))
 			//		{
-			//			if (dataListBox.SelectedIndex >= 0)
+			//			if (identitiesListBox.SelectedIndex >= 0)
 			//			{
-			//				dataListBox.Items.RemoveAt(dataListBox.SelectedIndex);
+			//				identitiesListBox.Items.RemoveAt(identitiesListBox.SelectedIndex);
 			//			}
 			//		}
 
@@ -277,13 +281,13 @@
 			//			(e.Shift == false) &&
 			//			(e.Control == false))
 			//		{
-			//			if (dataListBox.SelectedIndex >= 0)
+			//			if (identitiesListBox.SelectedIndex >= 0)
 			//			{
 			//				int selectedIndex =
-			//					dataListBox.SelectedIndex;
+			//					identitiesListBox.SelectedIndex;
 
-			//				dataListBox.Items.RemoveAt(selectedIndex);
-			//				dataListBox.SelectedIndex = selectedIndex;
+			//				identitiesListBox.Items.RemoveAt(selectedIndex);
+			//				identitiesListBox.SelectedIndex = selectedIndex;
 			//			}
 			//		}
 
@@ -301,20 +305,20 @@
 						(e.Shift == false) &&
 						(e.Control == false))
 					{
-						if (dataListBox.SelectedIndex >= 0)
+						if (identitiesListBox.SelectedIndex >= 0)
 						{
 							int selectedIndex =
-								dataListBox.SelectedIndex;
+								identitiesListBox.SelectedIndex;
 
-							dataListBox.Items.RemoveAt(selectedIndex);
+							identitiesListBox.Items.RemoveAt(selectedIndex);
 
-							if (selectedIndex > dataListBox.Items.Count - 1)
+							if (selectedIndex > identitiesListBox.Items.Count - 1)
 							{
 								selectedIndex =
-									dataListBox.Items.Count - 1;
+									identitiesListBox.Items.Count - 1;
 							}
 
-							dataListBox.SelectedIndex = selectedIndex;
+							identitiesListBox.SelectedIndex = selectedIndex;
 						}
 					}
 
@@ -322,6 +326,35 @@
 				}
 			}
 			// **********
+		}
+
+		private void identitiesListBox_DoubleClick(object sender, System.EventArgs e)
+		{
+			object selectedItem =
+				identitiesListBox.SelectedItem;
+
+			if (selectedItem != null)
+			{
+				identityTextBox.Text = selectedItem.ToString();
+
+				identityTextBox.Focus();
+			}
+		}
+
+		private void MainForm_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
+		{
+			switch (e.KeyCode)
+			{
+				case System.Windows.Forms.Keys.F1:
+				{
+					if ((e.Control == false) && (e.Alt == false) && (e.Shift == false))
+					{
+						System.Windows.Forms.MessageBox.Show("Hello, World!");
+					}
+
+					break;
+				}
+			}
 		}
 	}
 }
