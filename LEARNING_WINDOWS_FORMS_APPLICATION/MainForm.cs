@@ -11,7 +11,7 @@
 		{
 		}
 
-		private void insertButton_Click(object sender, System.EventArgs e)
+		private void InsertButton_Click(object sender, System.EventArgs e)
 		{
 			// **********
 			//identitiesListBox.Items.Add(identityTextBox.Text);
@@ -217,7 +217,7 @@
 			// **********
 		}
 
-		private void identitiesListBox_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
+		private void IdentitiesListBox_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
 		{
 			// **********
 			//if (e.KeyCode == System.Windows.Forms.Keys.Delete)
@@ -328,7 +328,7 @@
 			// **********
 		}
 
-		private void identitiesListBox_DoubleClick(object sender, System.EventArgs e)
+		private void IdentitiesListBox_DoubleClick(object sender, System.EventArgs e)
 		{
 			object selectedItem =
 				identitiesListBox.SelectedItem;

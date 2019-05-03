@@ -36,7 +36,7 @@
 			this.insertButton.TabIndex = 1;
 			this.insertButton.Text = "&Add";
 			this.insertButton.UseVisualStyleBackColor = true;
-			this.insertButton.Click += new System.EventHandler(this.insertButton_Click);
+			this.insertButton.Click += new System.EventHandler(this.InsertButton_Click);
 			// 
 			// identityTextBox
 			// 
@@ -58,8 +58,8 @@
 			this.identitiesListBox.Name = "identitiesListBox";
 			this.identitiesListBox.Size = new System.Drawing.Size(285, 132);
 			this.identitiesListBox.TabIndex = 2;
-			this.identitiesListBox.DoubleClick += new System.EventHandler(this.identitiesListBox_DoubleClick);
-			this.identitiesListBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.identitiesListBox_KeyDown);
+			this.identitiesListBox.DoubleClick += new System.EventHandler(this.IdentitiesListBox_DoubleClick);
+			this.identitiesListBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.IdentitiesListBox_KeyDown);
 			// 
 			// MainForm
 			// 
